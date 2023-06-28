@@ -127,18 +127,15 @@ const Table = ({
                   <td>{item.email}</td>
                   <td>{item.role}</td>
                   <td>
-                    <button
-                      className="edit-button"
-                      onClick={() => handleEdit(item.id)}
-                    >
-                      Edit
+                    <button className="" onClick={() => handleEdit(item.id)}>
+                      {String.fromCharCode(9997)}
                     </button>{" "}
                     <button
-                      className="delete"
+                      className=""
                       onClick={() => handleDelete(item.id)} //calling handleDelete funtion
                       disabled={isDeleteDisabled(item.id)} //calling isDeleteDisabled funtion
                     >
-                      Delete
+                      {String.fromCharCode(10060)}
                     </button>
                   </td>
                 </>

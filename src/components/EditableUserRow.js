@@ -78,9 +78,8 @@ const EditableUserRow = ({
         />
       </td>
       <td>
-        <button className="done-button" onClick={() => handleUpdate(item.id)}>
-          {/* {String.fromCharCode(10003)} */}
-          Done
+        <button className="" onClick={() => handleUpdate(item.id)}>
+          {String.fromCharCode(9989)}
         </button>
       </td>
     </>
